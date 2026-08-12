@@ -1,0 +1,11 @@
+# Changelog
+
+## 0.2.0 - 2026-08-12
+
+- Responsive React 19 dispatch console with API health and explicit demo mode.
+- Desktop/mobile captures and rendered architecture, work-order and GitFlow diagrams.
+- Vitest component coverage and frontend build integrated into CI.
+
+## 0.1.0 - 2026-08-11
+
+- Java 21 field-service backend with PostGIS and offline-safe mutations.
