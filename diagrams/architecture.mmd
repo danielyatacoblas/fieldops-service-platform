@@ -1,0 +1,10 @@
+flowchart LR
+    U[React Dispatch Console] --> API[Spring Boot REST API]
+    API --> W[Work Order Domain]
+    API --> S[Scheduling Engine]
+    API --> T[Technician Service]
+    W --> DB[(PostgreSQL)]
+    S --> DB
+    W --> K[(Kafka)]
+    K --> N[Notifications]
+    API --> O[Metrics and Tracing]
