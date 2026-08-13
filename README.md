@@ -14,7 +14,7 @@ sincronización offline con conflictos explícitos.</i></p>
   <img src="https://img.shields.io/badge/PostGIS-geoespacial-4169E1?logo=postgresql&logoColor=white" alt="PostGIS">
   <img src="https://img.shields.io/badge/offline--first-conflict_aware-F4C66A" alt="Offline first">
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React 19">
-  <img src="https://img.shields.io/badge/pruebas-2_aprobadas-2EAD33" alt="2 pruebas">
+  <img src="https://img.shields.io/badge/pruebas-3_aprobadas-2EAD33" alt="3 pruebas">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-MIT-blue" alt="MIT"></a>
 </p>
 
@@ -63,9 +63,15 @@ sintéticas y señala el modo demostración mientras la API no esté en `8091`.
 
 ## Capturas
 
-| Escritorio | Móvil |
-|---|---|
-| <img src="docs/screenshots/dashboard-desktop.png" alt="FieldOps escritorio" width="620"> | <img src="docs/screenshots/dashboard-mobile.png" alt="FieldOps móvil" width="230"> |
+| Pantalla | Claro | Oscuro |
+|---|---|---|
+| Dispatch board | ![Dispatch board claro](docs/screenshots/01-dispatch-board-light.png) | ![Dispatch board oscuro](docs/screenshots/01-dispatch-board-dark.png) |
+| Órdenes | ![Órdenes claro](docs/screenshots/02-ordenes-light.png) | ![Órdenes oscuro](docs/screenshots/02-ordenes-dark.png) |
+| Técnicos | ![Técnicos claro](docs/screenshots/03-tecnicos-light.png) | ![Técnicos oscuro](docs/screenshots/03-tecnicos-dark.png) |
+| Mapa operativo | ![Mapa claro](docs/screenshots/04-mapa-operativo-light.png) | ![Mapa oscuro](docs/screenshots/04-mapa-operativo-dark.png) |
+| Sincronización | ![Sincronización clara](docs/screenshots/05-sincronizacion-light.png) | ![Sincronización oscura](docs/screenshots/05-sincronizacion-dark.png) |
+
+<p align="center"><img src="docs/screenshots/dashboard-mobile.png" alt="FieldOps móvil" width="230"></p>
 
 ---
 
@@ -161,6 +167,9 @@ cd frontend && npm ci && npm test && npm run build
 ---
 
 ## Flujo de trabajo con Git
+
+El gráfico muestra el historial real hasta `v0.3.0`, incluyendo feature, fix,
+hotfix, documentación, releases, tags y merges de retorno.
 
 <p align="center">
   <img src="diagrams/rendered/gitflow.svg" alt="GitFlow FieldOps" width="760">
